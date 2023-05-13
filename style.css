@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100vw;
+  font-family: "Barlow", sans-serif;
+  overflow-x: hidden;
+}
+.Rectangle-left {
+  display: none;
+}
+.Rectangle-right {
+  display: none;
+}
+.tablet-keyboard-img {
+  display: none;
+}
+.desktop-keyboard-img {
+  display: none;
+}
+.tablet-phone-and-keyboard-img {
+  display: none;
+}
+.desktop-phone-and-keyboard-img {
+  display: none;
+}
+.tablet-glass-and-keyboard-img {
+  display: none;
+}
+.desktop-glass-and-keyboard-img {
+  display: none;
+}
+.card {
+  width: 100%;
+  padding: 23px 0 50px 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 64px;
+  padding: 0 24px;
+}
+.pre-order {
+  padding: 11px 14px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+}
+
+.gray-button {
+  color: #162542;
+  background-color: #e8eff2;
+}
+.card-title {
+  font-size: 48px;
+  line-height: 48px;
+  color: #162542;
+  font-weight: 900;
+  margin-bottom: 32px;
+  padding: 0 24px;
+}
+.info {
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+  font-weight: 500;
+  margin-bottom: 32px;
+  padding: 0 24px;
+}
+.time-section {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 64px;
+  padding: 0 24px;
+}
+.orange-button {
+  color: #ffffff;
+  background-color: #f16718;
+}
+.time-data {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #7b8bad;
+}
+.imgs-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 75px;
+}
+.keyboard-img {
+  width: 372px;
+  height: 331px;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+
+.glass-and-keyboard {
+  width: 220px;
+  height: 193px;
+  border-radius: 20px;
+}
+.phone-and-keyboard-img {
+  width: 109px;
+  height: 193px;
+}
+
+.mechanical-wireless-Keyboard {
+  font-size: 32px;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-weight: 900;
+  text-align: center;
+  padding: 0 60px;
+  margin-bottom: 24px;
+}
+.about-keyboard {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #7b8bad;
+  text-align: center;
+  padding: 0 24px;
+  margin-bottom: 111px;
+}
+.icon {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 48px;
+}
+.feature-title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 900;
+  text-align: center;
+  padding: 0 24px;
+}
+.about-feature {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: #7b8bad;
+  text-align: center;
+  padding: 0 24px;
+}
+.feature {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Typemaster {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #7b8bad;
+  text-align: center;
+  margin-top: 96px;
+}
+.reserved {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    width: 100%;
+  }
+  .keyboard-img {
+    display: none;
+  }
+  .tablet-keyboard-img {
+    display: block;
+  }
+  .phone-and-keyboard-img {
+    display: none;
+  }
+  .tablet-phone-and-keyboard-img {
+    display: block;
+  }
+
+  .glass-and-keyboard {
+    display: none;
+  }
+  .tablet-glass-and-keyboard-img {
+    display: block;
+    width: 445px;
+  }
+  .header {
+    padding: 0 40px;
+    margin-bottom: 62px;
+  }
+  .card-title {
+    margin-bottom: 34px;
+  }
+  .info {
+    margin-bottom: 39px;
+  }
+  .time-section {
+    margin-bottom: 0;
+  }
+
+  .flex-container {
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    margin-bottom: 40px;
+  }
+  .imgs-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+  }
+  .about-keyboard-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 40px;
+    gap: 50px;
+    margin-bottom: 142px;
+  }
+  .mechanical-wireless-Keyboard {
+    margin: 0;
+    padding: 0;
+  }
+  .about-keyboard {
+    margin: 0;
+  }
+
+  .characteristics {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 69px;
+    grid-row-gap: 72px;
+    padding: 0 40px;
+    margin-bottom: 142px;
+  }
+  .icon {
+    align-self: start;
+    margin-bottom: 40px;
+  }
+  .feature-title {
+    align-self: start;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 24px;
+    height: 56px;
+  }
+  .about-feature {
+    padding: 0;
+    align-self: start;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 100%;
+    padding: 55px 165px 40px 165px;
+  }
+  .header {
+    padding: 0;
+  }
+
+  .tablet-keyboard-img {
+    display: none;
+  }
+  .desktop-keyboard-img {
+    display: block;
+  }
+  .tablet-glass-and-keyboard-img {
+    display: none;
+  }
+  .desktop-glass-and-keyboard-img {
+    display: block;
+  }
+  .tablet-phone-and-keyboard-img {
+    display: none;
+  }
+  .desktop-phone-and-keyboard-img {
+    display: block;
+  }
+  .imgs-container {
+    padding: 0;
+    gap: 31px;
+    margin-bottom: 0;
+  }
+  .about-keyboard-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: 27px;
+
+    padding: 0;
+    margin-bottom: 0;
+  }
+  .about-keyboard {
+    padding: 0;
+  }
+
+  .flex-container {
+    gap: 125px;
+  }
+  .card-title {
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 900;
+    padding: 0;
+  }
+  .info {
+    font-size: 18px;
+    padding: 0;
+  }
+  .time-section {
+    padding: 0;
+    gap: 40px;
+  }
+  .orange-button:hover {
+    cursor: pointer;
+    opacity: 50%;
+  }
+  .flex-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 125px;
+  }
+  .characteristics {
+    margin-bottom: 128px;
+    padding: 0;
+    margin-top: 168px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+  }
+  .feature {
+    margin-bottom: 0;
+  }
+  .Typemaster {
+    margin-top: 0;
+  }
+
+  .Rectangle-left {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 930px;
+  }
+  .Rectangle-right {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 166px;
+  }
+  .gray-button:hover {
+    background-color: #162542;
+    color: #ffffff;
+    cursor: pointer;
+  }
+}
